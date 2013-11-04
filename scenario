@@ -1,0 +1,9 @@
+bootloader:
+	- charger le noyau
+	- activer A20
+	- charger une nouvelle GDT
+	- passer au mode protégé
+	- charger une nouvelle IDT
+	- activer une pile 32Bits
+	- rafraichir les registres
+	- executer le noyau
